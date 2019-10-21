@@ -314,7 +314,7 @@ If there are any issues, they should appear when you first run the script.
 
 ## Notes and ack(s):
 
-First off, this is a fork of github.com/vloschiavo/ZTP, with ideas borrowed from github.com/networkbootstrap/ztpmanager (largely the hosting of a web server versus ftp, and some other components). Giving credit where credit is due.
+First off, this is a fork of [github.com/vloschiavo/ZTP](https://github.com/vloschiavo/ZTP), with ideas borrowed from [github.com/networkbootstrap/ztpmanager](github.com/networkbootstrap/ztpmanager) (largely the hosting of a web server versus ftp, and some other components). Giving credit where credit is due.
 
 Juniper doc:
 http://www.juniper.net/techpubs/en_US/release-independent/nce/information-products/topic-collections/nce/new-rtg-device/adding-a-new-network-device.pdf
