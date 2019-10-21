@@ -242,9 +242,9 @@ In the current version of ztpgenerator, I went with the expediated version of de
 
 Next, there are three CSV fields that are required:
 
-- vc (Identifies the virtual chassis stack in cases where multiple stack configs are generated)
-- vc_member_number (Sets the member number in the configuration)
-- vc_role (Sets the virtual chassis role for the member)
+- vc : Identifies the virtual chassis stack in cases where multiple stack configs are generated. **Numbering starts with 0**.
+- vc_member_number : Sets the member number in the configuration. **Numbering starts with 0**.
+- vc_role : Sets the virtual chassis role for the member. **Valid options include: role-engine, line-card**.
 
 ### Running ztpgenerator
 
@@ -311,6 +311,7 @@ If there are any issues, they should appear when you first run the script.
   - Deciding virtual chassis configuration based on 'vc' in the template name. I mean, it works, but it could be better
   - Location of 'vcgenerator' call. I think the call should be in the logic function of determining virtual chassis configuration.
   - Could maybe remove the need for separate VC template by fixing vc logic
+- Data validation needed for some components, such as vc, vc_member_number, etc.
 
 ## Notes and ack(s):
 
