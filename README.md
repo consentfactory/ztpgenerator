@@ -25,7 +25,7 @@ ztpgenerator: Zero Touch Provisioning Auto-config Generator
    - [DHCP Issues](#dhcp-issues)
    - [<span>ztpgenerator.py</span> Issues](#spanztpgeneratorpyspan-issues)
 8. [Gripes, Future Plans, Miscellaneous](#gripes-future-plans-miscellaneous)
-9  [Notes and ack(s)](#notes-and-acks)
+9. [Notes and ack(s)](#notes-and-acks)
 
 ## Why does this exist?
 
