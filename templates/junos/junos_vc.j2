@@ -1,0 +1,10 @@
+virtual-chassis {
+    preprovisioned;
+    no-split-detection;
+    {%- for member_key,values in members.items() %}
+    member {{values["member"]}} {
+        role {{values["role"]}};
+        serial-number {{values["serial"]}};
+    }
+    {%- endfor %}
+}

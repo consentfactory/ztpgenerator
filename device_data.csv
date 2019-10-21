@@ -1,0 +1,4 @@
+serial_number,hostname,mgmt_ip,gateway,fixed_ip,mac_address,snmp_location,junos_template,junos_image,vc,vc_member_number,vc_role
+NYXXXYYY0000,Switch_1-0-0,192.168.100.10,192.168.100.1,172.16.1.100,aa:11:22:33:44:01,MDF Rack 1,junos_ex3400-vc.j2,junos-arm-32-15.1X53-D591.1.tgz,0,0,routing-engine
+NYXXXYYY0001,Switch_1-0-1,192.168.100.10,192.168.100.1,172.16.1.101,aa:11:22:33:45:01,MDF Rack 1,junos_ex3400-vc.j2,junos-arm-32-15.1X53-D591.1.tgz,0,1,routing-engine
+NYXXXYYY0002,Switch_1-0-2,192.168.100.10,192.168.100.1,172.16.1.102,aa:11:22:33:46:01,MDF Rack 1,junos_ex3400-vc.j2,junos-arm-32-15.1X53-D591.1.tgz,0,2,line-card

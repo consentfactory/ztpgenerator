@@ -1,0 +1,11 @@
+host {{hostname}} {
+        hardware ethernet {{mac_address}};
+        fixed-address {{fixed_ip}};
+        option host-name {{hostname}};
+        option ezjunosztp-file-server 172.16.1.10;
+        option ezjunosztp.transfer-mode "http";
+        option ntp-servers 172.16.1.10;
+        option ezjunosztp.config-file-name "configs/{{hostname}}.conf";
+        option ezjunosztp.image-file-name "images/{{junos_image}}";
+}
+
