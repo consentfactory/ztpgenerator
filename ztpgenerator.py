@@ -174,7 +174,7 @@ def ztpgenerator(csv_file):
         
         # Create the ISC-DHCPd config for this node
         # Read the dhcpd Jinja2 template file.
-        with open("{}}dhcpd/dhcpd.j2".format(templates_path)) as t2_fh:
+        with open("{}dhcpd/dhcpd.j2".format(templates_path)) as t2_fh:
             t2_format = t2_fh.read()
 
         # Set it up as a template
