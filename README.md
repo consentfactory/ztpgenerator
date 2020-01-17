@@ -61,7 +61,7 @@ This was designed to run on Debian-based servers (Ubuntu Server 18.04, in my cas
 **Jinja2** is the only Python package that needs to be installed before running the script. This can be installed easily via pip:
 
 ```bash
-pip3 install jinja2
+python3 -m pip install jinja2
 ```
 
 ## Preconfiguration
